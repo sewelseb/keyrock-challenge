@@ -49,11 +49,21 @@
       <file leaf-file-name="ethManager.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/express-es6-rest-api/src/api/ethManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="286">
+              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/express-es6-rest-api/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,30 +74,6 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="facets.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-es6-rest-api/src/api/facets.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-es6-rest-api/src/api/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -106,6 +92,7 @@
       <list>
         <option value="$PROJECT_DIR$/express-es6-rest-api/src/api/index.js" />
         <option value="$PROJECT_DIR$/express-es6-rest-api/src/index.js" />
+        <option value="$PROJECT_DIR$/express-es6-rest-api/package.json" />
         <option value="$PROJECT_DIR$/express-es6-rest-api/src/api/ethManager.js" />
       </list>
     </option>
@@ -176,37 +163,7 @@
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="keyrock-challenge" type="cbb8eebc:String" user="keyrock-challenge" />
-              <item name="express-es6-rest-api" type="cbb8eebc:String" user="express-es6-rest-api" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="keyrock-challenge" type="cbb8eebc:String" user="keyrock-challenge" />
-              <item name="express-es6-rest-api" type="cbb8eebc:String" user="express-es6-rest-api" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="api" type="cbb8eebc:String" user="api" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="keyrock-challenge" type="cbb8eebc:String" user="keyrock-challenge" />
-              <item name="express-es6-rest-api" type="cbb8eebc:String" user="express-es6-rest-api" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="lib" type="cbb8eebc:String" user="lib" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="keyrock-challenge" type="cbb8eebc:String" user="keyrock-challenge" />
-              <item name="express-es6-rest-api" type="cbb8eebc:String" user="express-es6-rest-api" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="middleware" type="cbb8eebc:String" user="middleware" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="keyrock-challenge" type="cbb8eebc:String" user="keyrock-challenge" />
-              <item name="express-es6-rest-api" type="cbb8eebc:String" user="express-es6-rest-api" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="models" type="cbb8eebc:String" user="models" />
+              <item name="node_modules" type="cbb8eebc:String" user="node_modules" />
             </path>
           </expand>
           <select />
@@ -246,12 +203,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523101423839</updated>
-      <workItem from="1523101425138" duration="2457000" />
+      <workItem from="1523101425138" duration="5160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2457000" />
+    <option name="totallyTimeSpent" value="5160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1936" height="1038" extended-state="0" />
@@ -311,17 +268,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-es6-rest-api/src/api/facets.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express-es6-rest-api/src/db.js">
+    <entry file="file://$PROJECT_DIR$/express-es6-rest-api/src/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -329,7 +276,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-es6-rest-api/src/config.json">
+    <entry file="file://$PROJECT_DIR$/express-es6-rest-api/npm-debug.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-212464">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express-es6-rest-api/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express-es6-rest-api/src/api/facets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express-es6-rest-api/src/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express-es6-rest-api/src/db.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -347,20 +330,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-es6-rest-api/src/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/express-es6-rest-api/src/api/ethManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="286">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>

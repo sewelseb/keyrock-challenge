@@ -3,13 +3,13 @@ import { Router } from 'express';
 import facets from './facets';
 
 var Web3 = require('web3');
-var web3 = new Web3();
+var web3 = new Web3("http://192.168.1.9:8545");
 
 
 
 //GETH COMMAND TO LAUNCH ETH SERVER: geth --rpc --rpcaddr "127.0.0.1" --rpcport "8545" \
 // --rpc --rpccorsdomain "http://regis.nu" console
-web3.setProvider(new Web3.providers.HttpProvider("http://192.168.1.9:8545"));
+//web3.setProvider(new Web3.providers.HttpProvider("http://192.168.1.9:8545"));
 //console.log('web3 is connected:'+web3.isConnected());
 //web3.setProvider(new web3.providers.HttpProvider("http://localhost:30303"));
 //web3.setProvider(new web3.providers.HttpProvider("http://52.169.42.101:30303"));

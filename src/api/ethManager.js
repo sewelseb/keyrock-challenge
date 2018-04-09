@@ -1,9 +1,12 @@
 import { version } from '../../package.json';
 import { Router } from 'express';
 import facets from './facets';
+import bodyParser from 'body-parser';
 
 var Web3 = require('web3');
 var web3 = new Web3("http://127.0.0.1:8545");
+
+
 
 
 

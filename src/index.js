@@ -21,9 +21,11 @@ app.use(cors({
 	exposedHeaders: config.corsHeaders
 }));
 
-app.use(bodyParser.json({
-	limit : config.bodyLimit
-}));
+//app.use(bodyParser.json({
+//	limit : config.bodyLimit
+//}));
+
+app.use(bodyParser.json());
 
 // connect to db
 initializeDb( db => {

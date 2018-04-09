@@ -60,12 +60,13 @@ export default ({ config, db }) => {
         var privateKey = req.body.privatekey;
         var destination  = req.body.destination;
         var amount = req.body.amount;
-        var transaction = web3.eth.sendTransaction({
+        /*var transaction = web3.eth.sendTransaction({
             from: privateKey,
             to: destination,
             value: amount
-        });
-        res.json(transaction);
+        });*/
+        //res.json(transaction);
+        res.json(req.body);
     });
 
 

@@ -29,11 +29,11 @@ export default ({ config, db }) => {
             // set the provider you want from Web3.providers
             web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
         }*/
-        console.log(web3._requestManager);
+        //console.log(web3._requestManager);
 
 
         //console.log('web3 is connected');
-        var password= "test";
+        //var password= "test";
 
         console.log(web3.eth.accounts);
 
@@ -45,7 +45,7 @@ export default ({ config, db }) => {
 
 
 
-        res.json({ "TODO": "CREATE WALLET AND RETURN PRIVATE KEY AND PUBLIC ADDRESS" });
+        res.json(account);
     });
 
     api.get('/getBalance/:walletAddress', (req, res) => {

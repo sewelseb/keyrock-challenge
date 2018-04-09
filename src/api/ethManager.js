@@ -3,7 +3,7 @@ import { Router } from 'express';
 import facets from './facets';
 
 var Web3 = require('web3');
-var web3 = new Web3("http://192.168.1.9:8545");
+var web3 = new Web3("http://127.0.0.1:8545");
 
 
 

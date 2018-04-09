@@ -56,6 +56,7 @@ export default ({ config, db }) => {
 
     api.post('/transaction', (req, res) => {
         //console.log(req.params.walletAddress);
+        console.log(req.body);
         var privateKey = req.body.privatekey;
         var destination  = req.body.destination;
         var amount = req.body.amount;

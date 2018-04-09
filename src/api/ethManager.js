@@ -69,7 +69,7 @@ export default ({ config, db }) => {
             value: amount
         });*/
         //res.json(transaction);
-        res.json(req);
+        res.json(req.body);
     });
 
 

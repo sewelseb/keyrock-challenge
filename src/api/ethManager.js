@@ -31,20 +31,17 @@ export default ({ config, db }) => {
         }*/
         console.log(web3._requestManager);
 
-        if(web3.isConnected())
-        {
-            console.log('web3 is connected');
-            var password= "test";
 
-            console.log(web3.eth.accounts);
+        //console.log('web3 is connected');
+        var password= "test";
 
-            var account  = web3.eth.accounts.create(password);
-            //web3.eth.accounts.create();
-            //console.log(account);
-        }
-        else {
-            res.json({ "ERROR": "web3 not connected" });
-        }
+        console.log(web3.eth.accounts);
+
+        //var account  = web3.eth.accounts.create(password);
+        var account  = web3.eth.accounts.create();
+        //web3.eth.accounts.create();
+        console.log(account);
+
 
 
 

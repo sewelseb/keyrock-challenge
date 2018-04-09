@@ -54,7 +54,7 @@ export default ({ config, db }) => {
         res.json(balance);
     });
 
-    api.post('/getBalance/transaction', (req, res) => {
+    api.post('/transaction', (req, res) => {
         //console.log(req.params.walletAddress);
         var privateKey = req.body.privatekey;
         var destination  = req.body.destination;

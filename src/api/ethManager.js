@@ -49,7 +49,9 @@ export default ({ config, db }) => {
     });
 
     api.get('/getBalance/:walletAddress', (req, res) => {
-        res.json({ "TODO": "GET THE BALANCE" });
+
+        var ballance = web3.eth.getBalance(req.params.walletAddress);
+        res.json(ballance);
     });
 
 
